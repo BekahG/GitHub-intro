@@ -7,6 +7,6 @@ def word_reverser(s):
 rev = s[::-1]
 #Checks to see if the entered word/phrase and its reverse are the same and prints whether or not it is is a palindrome
 if s == rev:
-    print (s,"is a palindrome")
+    print (s,"is the same backwards and forwards")
 else:
     print (s,"is not a palindrome")
