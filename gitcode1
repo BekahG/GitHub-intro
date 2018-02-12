@@ -1,0 +1,12 @@
+#Input word or phrase to be checked. Word or phrase must be entered in all the same case, with no spaces or punctuation.
+s = "helloworld"
+#Reverses the order of the word or phrase
+def word_reverser(s):
+    return s[::-1]
+#Defines the reversed string as "rev"
+rev = s[::-1]
+#Checks to see if the entered word/phrase and its reverse are the same and prints whether or not it is is a palindrome
+if s == rev:
+    print (s,"is a palindrome")
+else:
+    print (s,"is not a palindrome")
